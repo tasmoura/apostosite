@@ -1,9 +1,16 @@
+@font-face {
+  font-family: "AlmaqW01-Rough";
+  src: url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.eot");
+  src: url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.woff") format("woff"), url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.svg#AlmaqW01-Rough") format("svg");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --primary: #F99F2B;
+  --bgcolor: #111;
+  --boxcolor:#000;
 }
 
 a {

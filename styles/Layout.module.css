@@ -1,0 +1,63 @@
+.container{
+    padding: 0;
+    font-family: "AlmaqW01-Rough", sans-serif;
+    background-color: var(--bgcolor);
+    min-height: 100vh;
+    z-index: -1;
+}
+.main{
+    position:relative;
+    margin: auto;
+    z-index:1;
+}
+
+.backgroundimg {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.valor {
+    display: relative;
+    margin-top: 150px;
+    margin-bottom: 10%;
+    text-align: center;
+    color: white;
+}
+
+.sobre {
+    display: relative;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.sobre h1 {
+    margin-bottom: 40px;
+}
+
+.contato {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    color: white;
+}
+
+.contato input {
+    margin-top: 10px;
+    width: 60%;
+}
+
+.submit {
+    background-color: var(--primary);
+    border: none;
+    padding: 10px;
+    width: 200px !important;
+    text-transform: uppercase;
+}

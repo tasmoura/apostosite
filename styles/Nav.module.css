@@ -1,0 +1,60 @@
+.header {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    background-color: var(--boxcolor);
+    justify-content: space-between;
+    z-index:10;
+    font-family: "AlmaqW01-Rough";
+}
+
+.headerimg {
+    height: 90%;
+    margin: 5px;
+    width: auto;
+    flex: left;
+}
+
+.navbar {
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    right: 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex: right;
+}
+
+.navbar a {
+    color: white;
+    min-width: 110px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .header {
+        display: block;
+    }
+    .headerimg {
+        width: 100%;
+        max-width: none;
+        margin-bottom:0;
+    }
+    .navbar {
+        width: 100%;
+        background-color: var(--boxcolor);
+        padding-left: calc(50% - 330px);
+        margin:0;
+        max-width:none;
+        margin-top:-1px;
+    }
+}
