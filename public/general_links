@@ -1,8 +1,0 @@
-export const links [
-    {
-        "logo": "https://drive.google.com/uc?export=view&id=1LG9O_8VSad8R_SJwgXrz3_rFQQdEoEwW",
-        "bg1":"https://drive.google.com/uc?export=view&id=1NlByw8PHg6S1h_W-9DKGs6ybqKJaofdy",
-        "bg2":"https://drive.google.com/uc?export=view&id=1NlByw8PHg6S1h_W-9DKGs6ybqKJaofdy",
-        "herovideo":"https://doc-0c-88-docs.googleusercontent.com/docs/securesc/2s8mfu6fab1mpfm5v3nucp6on6vn8gi5/a77hqv4e67fp8eri7le9hjd4a0uopiag/1612207050000/03164567499825848637/03164567499825848637/1murwRNEjEjXaacFSuGUVHJyx48F7QaoM?e=view&authuser=0"
-    }
-]

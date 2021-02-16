@@ -1,7 +1,7 @@
 import Nav from './Nav'
 import Head from 'next/head'
 import styles from '../styles/Layout.module.css'
-import bgimage from '../public/img/conexoes.png'
+//import bgimage from '../public/img/conexoes.png'
 
 const Layout = ({ children }) => {
     return(
@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
             <Nav></Nav>
             <div className={styles.container}>
                 <main className={styles.main}>
-                    <img className={styles.backgroundimg} src={bgimage} alt="logo da aposto: arroba com a maiúculo e fonte cursiva"/>
+                    <img className={styles.backgroundimg} src='http://www.agenciaaposto.com/out/img/conexoes.png' alt="logo da aposto: arroba com a maiúculo e fonte cursiva"/>
                     {children}
                 </main>
             </div>
