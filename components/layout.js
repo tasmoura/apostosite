@@ -8,13 +8,14 @@ const Layout = ({ children }) => {
         <div>
             <Head>
                 <title>Aposto Comunicações</title>
-                <link rel="icon" href="/favicon.ico" />
-                <link href="//db.onlinewebfonts.com/c/86da85d699ce035da08306ffd6520604?family=AlmaqW01-Rough" rel="stylesheet" type="text/css"/>
+                <link rel='icon' href='/favicon.ico' />
+                <link href='//db.onlinewebfonts.com/c/86da85d699ce035da08306ffd6520604?family=AlmaqW01-Rough' rel='stylesheet' type='text/css'/>
+                <link rel='stylesheet' href='styles/Layout.module.css' />
             </Head>
             <Nav></Nav>
             <div className={styles.container}>
                 <main className={styles.main}>
-                    <img className={styles.backgroundimg} src='http://www.agenciaaposto.com/out/img/conexoes.png' alt="logo da aposto: arroba com a maiúculo e fonte cursiva"/>
+                    <img className={styles.backgroundimg} src='http://www.agenciaaposto.com/img/conexoes.png' alt="logo da aposto: arroba com a maiúculo e fonte cursiva"/>
                     {children}
                 </main>
             </div>

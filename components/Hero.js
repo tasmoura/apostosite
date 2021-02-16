@@ -1,7 +1,7 @@
 import heroStyles from '../styles/Hero.module.css'
 
-const Hero = () => {
-    return(
+function Hero() {
+    return (
         <div className={heroStyles.herocont}>
             <h1></h1>
         </div>
