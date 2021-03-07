@@ -1,0 +1,48 @@
+.ContactSection{
+    max-width:1280px;
+    margin:auto;
+    padding:4rem 0;
+}
+.ContactSection form{
+    width:100%;
+    max-width:600px;
+    border:var(--primary) 2px solid;
+    padding:2rem;
+    margin:auto;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+.ContactSection input, .ContactSection textarea{
+    color:var(--tipcolor);
+    background-color:var(--boxcolor);
+    border:none;
+    width:100%;
+    padding:0.7rem;
+    margin:0.5rem 0;
+    font-family:NotoSansKR, sans-serif;
+    font-size:1rem;
+}
+.ContactSection textarea{
+    height:200px;
+    resize: none;
+}
+.ContactSection button{
+    background-color:var(--primary);
+    color:var(--bgcolor);
+    border-radius:10px;
+    border:none;
+    width:100%;
+    padding:0.5rem;
+    font-family:AlmaqW01-Rough, sans-serif;
+    font-size:1.5rem;
+    cursor:pointer;
+}
+
+@media (max-width: 700px) {
+    .ContactSection form{
+        border:none;
+    }
+    .ContactSection h1{
+        font-size:3rem;
+    }
+}

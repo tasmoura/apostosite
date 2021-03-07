@@ -4,6 +4,11 @@
   src: url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.woff") format("woff"), url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/86da85d699ce035da08306ffd6520604.svg#AlmaqW01-Rough") format("svg");
 }
 
+@font-face {
+  font-family: 'NotoSansKR';
+  src: local('NotoSansKR'), url(../public/fonts/NotoSansKR-Light.otf) format('opentype');
+}
+
 html,
 body {
   padding: 0;
@@ -11,6 +16,9 @@ body {
   --primary: #F99F2B;
   --bgcolor: #111;
   --boxcolor:#000;
+  --paragrafcolor:#fff;
+  --tipcolor:#ddd;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -20,4 +28,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h2{
+  font-size: 4.5rem;
+  color:var(--paragrafcolor);
+  text-align: center;
+  font-weight:100;
+  margin:0 0 4rem 0;
+  font-family:AlmaqW01-Rough, sans-serif;
 }

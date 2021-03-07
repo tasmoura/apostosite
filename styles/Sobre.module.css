@@ -1,0 +1,44 @@
+.sobrecont{
+    max-width:1280px;
+    margin:auto;
+    padding:4rem 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    flex-direction: column;
+    max-width:500px;
+    width:50%;
+    box-sizing: border-box;
+    padding:2rem;
+    color:var(--paragrafcolor);
+}
+.col h2{
+    text-align: left;
+}
+.col p{
+    font-family:NotoSansKR;
+    weight:100;
+}
+.sobrecont .col img{
+    max-width: 500px;
+    width:100%;
+    height:auto;
+    display:block;
+    z-index: 10;
+}
+
+@media (max-width: 700px) {
+    .sobrecont{
+        display:block;
+    }
+    .sobrecont .col{
+        display:block;
+        width:100%;
+        max-width: none;
+    }
+    .sobrecont .col img{
+        max-width: none;
+    }
+}
