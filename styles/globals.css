@@ -19,6 +19,7 @@ body {
   --paragrafcolor:#fff;
   --tipcolor:#ddd;
   scroll-behavior: smooth;
+  background-color: var(--bgcolor);
 }
 
 a {
@@ -37,4 +38,8 @@ h2{
   font-weight:100;
   margin:0 0 4rem 0;
   font-family:AlmaqW01-Rough, sans-serif;
+}
+
+p{
+  font-size:1.125rem;
 }

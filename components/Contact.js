@@ -4,7 +4,7 @@ function Contact() {
     return (
         <section className={ContactStyles.ContactSection} id="contato">
             <h2>Fale Conosco</h2>
-            <form method='POST' action='/Contact.php'>
+            <form method='' action=''>
                 <input name='nome' type='text' placeholder='Seu Nome' required/>
                 <input name='email' type='email' placeholder='Seu Email' required/>
                 <textarea name='message' placeholder='Sua Mensagem'></textarea>

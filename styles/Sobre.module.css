@@ -1,7 +1,7 @@
 .sobrecont{
     max-width:1280px;
     margin:auto;
-    padding:4rem 0;
+    padding:6rem 0 4rem 0;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
     max-width:500px;
     width:50%;
     box-sizing: border-box;
-    padding:2rem;
+    padding:0 2rem;
     color:var(--paragrafcolor);
 }
 .col h2{
@@ -19,7 +19,7 @@
 }
 .col p{
     font-family:NotoSansKR;
-    weight:100;
+    font-weight:100;
 }
 .sobrecont .col img{
     max-width: 500px;
@@ -29,7 +29,7 @@
     z-index: 10;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 920px) {
     .sobrecont{
         display:block;
     }

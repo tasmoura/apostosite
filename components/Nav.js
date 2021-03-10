@@ -6,9 +6,9 @@ function Nav() {
         <header className={navStyles.header}>
             <a href="#hero"><img className={navStyles.headerimg} src='http://www.agenciaaposto.com/img/logo.svg' alt='logo da aposto: arroba com a maiúculo e fonte cursiva' /></a>
             <nav className={navStyles.navbar}>
-                <a href="sobre">Quem somos?</a>
-                <a href="servicos">Serviços</a>
-                <a href="noticias">Notícias</a>
+                <a href="#sobre">Quem somos?</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#noticias">Notícias</a>
                 <a href="#contato">Contato</a>
             </nav>
             <div className={navStyles.socialmedia}>
