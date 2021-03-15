@@ -1,10 +1,9 @@
+import NoticiasLista from '../components/NoticiasLista'
 
-import NoticiasDestaque from '../components/NoticiasDestaque'
-
-export default function Home() {
+export default function noticias(props) {
   return (
     <div>
-        <NoticiasDestaque></NoticiasDestaque>
+        <NoticiasLista></NoticiasLista>
     </div>
   )
 }

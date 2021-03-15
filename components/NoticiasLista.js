@@ -3,9 +3,9 @@ import newsdb from './noticiasdb.js'
 //import DOMPurify from 'dompurify' //protege o disparo de alert ou js em 'onError' por links quebrados nas strings inseridas por meio de 'dangerouslySetInnerHTML'
 
 
-function NoticiasDestaque() {
+function NoticiasLista() {
 
-    const news = newsdb.slice(0,3);
+    const news = newsdb;
 
     return (
         <section id="noticias" className={noticiasStyles.noticiascont}>
@@ -14,8 +14,8 @@ function NoticiasDestaque() {
 
                 {news.map((card, index) => {
                     const indexStr = index.toString();
-                    const hrefPath = 'noticias/' + indexStr;
-                    const keyID = 'noticiasDestaque' + indexStr;
+                    const hrefPath = indexStr;
+                    const keyID = 'noticiasLista' + indexStr;
                     const titleStr = card.title;
                     const resumeStr = card.resume;
 
@@ -33,9 +33,8 @@ function NoticiasDestaque() {
                 })}
                 
             </div>
-            <a className={noticiasStyles.button} href='/noticias/'>Veja mais</a>
         </section>
     )
 }
 
-export default NoticiasDestaque
+export default NoticiasLista

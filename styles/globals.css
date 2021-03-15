@@ -9,6 +9,12 @@
   src: local('NotoSansKR'), url(../public/fonts/NotoSansKR-Light.otf) format('opentype');
 }
 
+@font-face {
+  font-family: 'NotoSansKR';
+  src: local('NotoSansKR'), url(../public/fonts/NotoSansKR-Bold.otf) format('opentype');
+  font-weight: bold;
+}
+
 html,
 body {
   padding: 0;
@@ -42,4 +48,9 @@ h2{
 
 p{
   font-size:1.125rem;
+}
+
+strong, b{
+  color: var(--primary);
+  font-weight:bold;
 }
