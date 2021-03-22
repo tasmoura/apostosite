@@ -60,9 +60,6 @@
 }
 
 @media (max-width: 700px) {
-    .header {
-        
-    }
     .headerimg {
         height:60%;
     }

@@ -12,6 +12,15 @@
     border-bottom-left-radius:15px;
     border-bottom-right-radius:15px;
 }
+.ContactSection p{
+    color:var(--paragrafcolor);
+    font-family:'NotoSansKR';
+    font-size:0.875rem;
+    margin-top:1rem;
+    text-align: center;
+    display:block;
+    padding: 0 2rem;
+}
 .ContactSection input, .ContactSection textarea{
     color:var(--tipcolor);
     background-color:var(--boxcolor);

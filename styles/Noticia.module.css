@@ -47,3 +47,8 @@
     color:var(--primary);
     text-decoration: underline;
 }
+@media (max-width: 920px) {
+    .noticiacont h2{
+        text-align: center;
+    }
+}

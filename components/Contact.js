@@ -1,15 +1,37 @@
 import ContactStyles from '../styles/Contact.module.css'
+import { useState } from 'react'
 
 function Contact() {
+    const [formResult,setFormResult] = useState();
+
+    const submitBtn = function(e){
+        e.preventDefault();
+        fetch(
+            '/Contact/sendemail.php',
+            {body: new FormData (e.target), method:'POST'}
+        )
+        .then(
+            function(response){
+                return(
+                    response.text().then( function(data){
+                        console.log(data);
+                        setFormResult(data);
+                    } )
+                )
+            }
+        )
+    }
+
     return (
         <section className={ContactStyles.ContactSection} id="contato">
             <h2>Fale Conosco</h2>
-            <form method='' action=''>
+            <form method='POST' onSubmit={submitBtn}>
                 <input name='nome' type='text' placeholder='Seu Nome' required/>
                 <input name='email' type='email' placeholder='Seu Email' required/>
-                <textarea name='message' placeholder='Sua Mensagem'></textarea>
+                <textarea name='mensagem' placeholder='Sua Mensagem'></textarea>
                 <button type="submit">Enviar</button>
             </form>
+            <p>{formResult}</p>
         </section>
     )
 }

@@ -41,4 +41,7 @@
     .sobrecont .col img{
         max-width: none;
     }
+    .col h2{
+        text-align: center;
+    }
 }

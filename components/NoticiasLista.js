@@ -9,7 +9,7 @@ function NoticiasLista() {
 
     return (
         <section id="noticias" className={noticiasStyles.noticiascont}>
-            <h2>Notícias</h2>
+            <h2 className={noticiasStyles.title}>Notícias</h2>
             <div>
 
                 {news.map((card, index) => {

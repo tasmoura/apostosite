@@ -1,6 +1,7 @@
 import Hero from '../components/Hero'
 import Contact from '../components/Contact'
 import Sobre from '../components/Sobre'
+import Testimony from '../components/Testimony'
 import Servicos from '../components/Servicos'
 import NoticiasDestaque from '../components/NoticiasDestaque'
 
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero></Hero>
         <Sobre></Sobre>
         <Servicos></Servicos>
+        <Testimony></Testimony>
         <NoticiasDestaque></NoticiasDestaque>
         <Contact></Contact>
     </div>
