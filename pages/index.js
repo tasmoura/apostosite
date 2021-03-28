@@ -4,6 +4,7 @@ import Sobre from '../components/Sobre'
 import Testimony from '../components/Testimony'
 import Servicos from '../components/Servicos'
 import NoticiasDestaque from '../components/NoticiasDestaque'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
