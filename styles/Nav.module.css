@@ -1,6 +1,6 @@
 .header {
     position: fixed;
-    top: 30px;
+    top:0;
     height: 80px;
     width: 100%;
     flex-direction: row;

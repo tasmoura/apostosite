@@ -1,7 +1,7 @@
+//this component is the home page section 'Notícias'. It take the last 3 news from 'noticiasdb'
+
 import noticiasStyles from '../styles/NoticiasLista.module.css'
 import newsdb from './noticiasdb.js'
-//import DOMPurify from 'dompurify' //protege o disparo de alert ou js em 'onError' por links quebrados nas strings inseridas por meio de 'dangerouslySetInnerHTML'
-
 
 function NoticiasDestaque() {
 

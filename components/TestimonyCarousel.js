@@ -1,3 +1,5 @@
+//Caroussel componente is used in 'Testimony' component
+
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import testimonyStyle from '../styles/Testimony.module.css'

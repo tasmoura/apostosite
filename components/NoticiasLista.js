@@ -1,7 +1,7 @@
+//this component is called in the page 'noticias'. Here all news are listed to client access.
+
 import noticiasStyles from '../styles/NoticiasLista.module.css'
 import newsdb from './noticiasdb.js'
-//import DOMPurify from 'dompurify' //protege o disparo de alert ou js em 'onError' por links quebrados nas strings inseridas por meio de 'dangerouslySetInnerHTML'
-
 
 function NoticiasLista() {
 

@@ -1,6 +1,7 @@
 import ContactStyles from '../styles/Contact.module.css'
 import { useState } from 'react'
 
+//this function fetch php hosted code to send email. This resource was used to safe credentials after export the website to static version.
 function Contact() {
     const [formResult,setFormResult] = useState();
 

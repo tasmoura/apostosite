@@ -1,3 +1,5 @@
+//Data base to news section.
+
 const dbnews = [
     {
         imgsrc:"http://www.agenciaaposto.com/img/noticias/anfora.jpg",
