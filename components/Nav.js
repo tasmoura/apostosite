@@ -27,8 +27,8 @@ function Nav() {
             <a href="/"><img className={navStyles.headerimg} src='http://www.agenciaaposto.com/img/logo.svg' alt='logo da aposto: arroba com a maiúculo e fonte cursiva' /></a>
             <nav className={navStyles.navbar} style={{display:toggleMenu }}>
                 <a href="/#sobre" onClick={toggleMenuBtn}>Quem somos?</a>
-                <a href="/#servicos" onClick={toggleMenuBtn}>Serviços</a>
-                <a href="/#noticias" onClick={toggleMenuBtn}>Notícias</a>
+                <a href="/#servicos" onClick={toggleMenuBtn}>Produtos</a>
+                <a href="/#noticias" onClick={toggleMenuBtn}>Blog</a>
                 <a href="/#contato" onClick={toggleMenuBtn}>Contato</a>
             </nav>
             <div className={navStyles.socialmedia}>

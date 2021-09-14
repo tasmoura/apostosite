@@ -3,7 +3,7 @@ import servicosStyles from '../styles/Servicos.module.css'
 function Servicos() {
     return (
         <section id="servicos" className={servicosStyles.servicoscont}>
-            <h2>Serviços</h2>
+            <h2>Produtos</h2>
             <div>
                 <div className={servicosStyles.col}>
                     <h3>Social media</h3>

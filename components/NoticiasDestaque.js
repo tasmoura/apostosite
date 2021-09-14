@@ -9,7 +9,7 @@ function NoticiasDestaque() {
 
     return (
         <section id="noticias" className={noticiasStyles.noticiascont}>
-            <h2>Notícias</h2>
+            <h2>Blog</h2>
             <div>
 
                 {news.map((card, index) => {
