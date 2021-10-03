@@ -9,7 +9,7 @@
     background-color: var(--boxcolor);
     justify-content: space-between;
     z-index:10;
-    font-family: "AlmaqW01-Rough";
+    font-family: "Bebas-Neue";
 }
 
 .headerimg {
@@ -29,9 +29,11 @@
     align-items: center;
 }
 
-.navbar a {
+.navbar .navlink {
     color: white;
     text-align: center;
+    font-size:1.5rem;
+    
 }
 
 .navbar a:hover {
@@ -89,13 +91,14 @@
         width:100vw;
         max-width: none;
         margin-top:60px;
-        height: 100vh;
+        height: auto;
     }
-    .navbar a{
-        display: block;
-        text-align: center;
-        font-size:1.8rem;
-        padding:1.5rem 0;
+    .navbar .navlink {
+        position: relative;
+        color: white;
+        text-align: right;
+        font-size:1.5rem;
+        padding:1rem 1rem 0 0;
     }
     .header button{
         margin-left:10px;

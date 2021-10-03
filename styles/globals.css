@@ -5,6 +5,11 @@
 }
 
 @font-face {
+  font-family: 'Bebas-Neue';
+  src: local('BebasNeue'), url(../public/fonts/BebasNeue-Regular.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'NotoSansKR';
   src: local('NotoSansKR'), url(../public/fonts/NotoSansKR-Light.otf) format('opentype');
 }
@@ -43,7 +48,7 @@ h2{
   text-align: center;
   font-weight:100;
   margin:0 0 4rem 0;
-  font-family:AlmaqW01-Rough, sans-serif;
+  font-family: 'Bebas-Neue', sans-serif;
 }
 
 p{

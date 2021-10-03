@@ -5,12 +5,11 @@
     width:100%;
 }
 .servicoscont h2{
-    text-align: right;
+    text-align: left;
     padding:0 2rem;
 }
 .servicoscont div{
     display:flex;
-    justify-content:space-between;
 }
 .col{
     flex-direction: column;
@@ -64,7 +63,7 @@
     font-weight:100;
 }
 .col ul li div p span{
-    font-family:AlmaqW01-Rough;
+    font-family:"Bebas-Neue";
     font-weight:100;
     color:var(--primary);
 }

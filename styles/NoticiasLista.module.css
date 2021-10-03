@@ -5,7 +5,7 @@
     width:100%;
 }
 .noticiascont h2{
-    text-align: right;
+    text-align: left;
     padding:0 2rem;
 }
 .noticiascont .title{
@@ -37,6 +37,7 @@
     background-color: var(--boxcolor);
     width:100%;
     margin:0;
+    font-family: 'Bebas-Neue';
     font-size:2rem;
     font-weight: 100;
     padding:0.5rem;
@@ -69,7 +70,7 @@
     width:150px;
     margin-top:2rem;
     padding:0.5rem;
-    font-family:AlmaqW01-Rough, sans-serif;
+    font-family:'Bebas-Neue', sans-serif;
     font-size:1.5rem;
     text-align: center;
     cursor:pointer;
