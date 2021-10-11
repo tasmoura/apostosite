@@ -32,10 +32,10 @@ function Nav() {
                 <div className={navStyles.navlink}><a href="/#contato" onClick={toggleMenuBtn}>Contato</a></div>
             </nav>
             <div className={navStyles.socialmedia}>
-                <a href='https://www.facebook.com/apostocomunicacao/' target='blank'><img src='http://www.agenciaaposto.com/img/icon_f.svg' alt='icone do facebook' /></a>
-                <a href='https://www.instagram.com/apostocomunicacao/' target='blank'><img src='http://www.agenciaaposto.com/img/icon_i.svg' alt='icone do instagram' /></a>
-                <a href='https://whats.link/apostocom' target='blank'><img src='http://www.agenciaaposto.com/img/icon_w.svg' alt='icone do whattsapp' /></a>
-                <button><img className={navStyles.headerimg} onClick={toggleMenuBtn} src='http://www.agenciaaposto.com/img/icon_menu.svg' alt='icone de menu' /></button>
+                <a href='https://www.facebook.com/apostocomunicacao/' target='blank'><img src='http://www.agenciaaposto.com/img/icon_f.svg' alt='icone do facebook' height='30px' width='30px' /></a>
+                <a href='https://www.instagram.com/apostocomunicacao/' target='blank'><img src='http://www.agenciaaposto.com/img/icon_i.svg' alt='icone do instagram' height='30px' width='30px' /></a>
+                <a href='https://whats.link/apostocom' target='blank'><img src='http://www.agenciaaposto.com/img/icon_w.svg' alt='icone do whattsapp' height='30px' width='30px' /></a>
+                <button><img className={navStyles.headerimg} onClick={toggleMenuBtn} src='http://www.agenciaaposto.com/img/icon_menu.svg' alt='icone de menu' height='30px' width='30px' /></button>
             </div>
             
         </header>
